@@ -1,0 +1,75 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.12.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - karma > connect > connect-timeout > debug:
+        patched: '2018-07-30T05:13:55.100Z'
+    - karma > connect > compression > debug:
+        patched: '2018-07-30T05:13:55.100Z'
+    - karma > connect > express-session > debug:
+        patched: '2018-07-30T05:13:55.100Z'
+    - karma > connect > morgan > debug:
+        patched: '2018-07-30T05:13:55.100Z'
+    - karma > connect > serve-index > debug:
+        patched: '2018-07-30T05:13:55.100Z'
+    - karma > connect > serve-static > send > debug:
+        patched: '2018-07-30T05:13:55.100Z'
+    - karma > connect > body-parser > debug:
+        patched: '2018-07-30T05:13:55.100Z'
+  'npm:hoek:20180212':
+    - karma-phantomjs-launcher > phantomjs > request > hawk > boom > hoek:
+        patched: '2018-07-30T05:13:55.100Z'
+    - karma-phantomjs-launcher > phantomjs > request > hawk > sntp > hoek:
+        patched: '2018-07-30T05:13:55.100Z'
+    - karma-phantomjs-launcher > phantomjs > request > hawk > cryptiles > boom > hoek:
+        patched: '2018-07-30T05:13:55.100Z'
+    - karma-phantomjs-launcher > phantomjs > request > hawk > hoek:
+        patched: '2018-07-30T05:13:55.100Z'
+  'npm:mime:20170907':
+    - grunt-contrib-connect > connect > send > mime:
+        patched: '2018-07-30T05:13:55.100Z'
+    - karma > connect > serve-static > send > mime:
+        patched: '2018-07-30T05:13:55.100Z'
+  'npm:ms:20170412':
+    - karma > connect > connect-timeout > ms:
+        patched: '2018-07-30T05:13:55.100Z'
+    - karma > connect > connect-timeout > debug > ms:
+        patched: '2018-07-30T05:13:55.100Z'
+    - karma > connect > compression > debug > ms:
+        patched: '2018-07-30T05:13:55.100Z'
+    - karma > connect > body-parser > debug > ms:
+        patched: '2018-07-30T05:13:55.100Z'
+    - karma > connect > express-session > debug > ms:
+        patched: '2018-07-30T05:13:55.100Z'
+    - karma > connect > morgan > debug > ms:
+        patched: '2018-07-30T05:13:55.100Z'
+    - karma > connect > serve-index > debug > ms:
+        patched: '2018-07-30T05:13:55.100Z'
+    - karma > connect > serve-static > send > ms:
+        patched: '2018-07-30T05:13:55.100Z'
+    - karma > connect > serve-static > send > debug > ms:
+        patched: '2018-07-30T05:13:55.100Z'
+    - karma > connect > serve-favicon > ms:
+        patched: '2018-07-30T05:13:55.100Z'
+  'npm:negotiator:20160616':
+    - karma > connect > compression > accepts > negotiator:
+        patched: '2018-07-30T05:13:55.100Z'
+    - karma > connect > serve-index > accepts > negotiator:
+        patched: '2018-07-30T05:13:55.100Z'
+  'npm:qs:20140806-1':
+    - grunt-contrib-watch > tiny-lr-fork > qs:
+        patched: '2018-07-30T05:13:55.100Z'
+  'npm:request:20160119':
+    - karma-phantomjs-launcher > phantomjs > request:
+        patched: '2018-07-30T05:13:55.100Z'
+  'npm:tough-cookie:20170905':
+    - karma-phantomjs-launcher > phantomjs > request > tough-cookie:
+        patched: '2018-07-30T05:13:55.100Z'
+  'npm:tunnel-agent:20170305':
+    - karma-phantomjs-launcher > phantomjs > request > tunnel-agent:
+        patched: '2018-07-30T05:13:55.100Z'
+  'npm:ws:20160920':
+    - karma > socket.io > socket.io-client > ws:
+        patched: '2018-07-30T05:13:55.100Z'
