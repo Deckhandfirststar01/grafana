@@ -70,6 +70,11 @@ patch:
   'npm:tunnel-agent:20170305':
     - karma-phantomjs-launcher > phantomjs > request > tunnel-agent:
         patched: '2018-07-30T05:13:55.100Z'
+    - karma > log4js > loggly > request > tunnel-agent:
+        patched: '2018-10-24T09:01:08.489Z'
   'npm:ws:20160920':
     - karma > socket.io > socket.io-client > ws:
         patched: '2018-07-30T05:13:55.100Z'
+  'npm:minimatch:20160620':
+    - grunt-jscs > jscs > babel-jscs > babel-core > minimatch:
+        patched: '2018-10-24T09:01:08.489Z'
