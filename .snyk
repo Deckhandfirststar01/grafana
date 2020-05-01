@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.12.0
+version: v1.14.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -73,3 +73,40 @@ patch:
   'npm:ws:20160920':
     - karma > socket.io > socket.io-client > ws:
         patched: '2018-07-30T05:13:55.100Z'
+  SNYK-JS-LODASH-567746:
+    - grunt-contrib-compress > lodash:
+        patched: '2020-05-01T00:52:06.370Z'
+    - grunt-contrib-uglify > lodash:
+        patched: '2020-05-01T00:52:06.370Z'
+    - grunt-contrib-watch > lodash:
+        patched: '2020-05-01T00:52:06.370Z'
+    - karma > lodash:
+        patched: '2020-05-01T00:52:06.370Z'
+    - grunt > grunt-legacy-log > lodash:
+        patched: '2020-05-01T00:52:06.370Z'
+    - grunt > grunt-legacy-util > lodash:
+        patched: '2020-05-01T00:52:06.370Z'
+    - grunt-contrib-watch > async > lodash:
+        patched: '2020-05-01T00:52:06.370Z'
+    - grunt-contrib-compress > archiver > lodash:
+        patched: '2020-05-01T00:52:06.370Z'
+    - karma > combine-lists > lodash:
+        patched: '2020-05-01T00:52:06.370Z'
+    - grunt > grunt-legacy-log > grunt-legacy-log-utils > lodash:
+        patched: '2020-05-01T00:52:06.370Z'
+    - grunt-contrib-compress > archiver > archiver-utils > lodash:
+        patched: '2020-05-01T00:52:06.370Z'
+    - grunt-contrib-compress > archiver > async > lodash:
+        patched: '2020-05-01T00:52:06.370Z'
+    - grunt-contrib-compress > archiver > zip-stream > lodash:
+        patched: '2020-05-01T00:52:06.370Z'
+    - grunt-contrib-watch > gaze > globule > lodash:
+        patched: '2020-05-01T00:52:06.370Z'
+    - karma > log4js > hipchat-notifier > lodash:
+        patched: '2020-05-01T00:52:06.370Z'
+    - grunt-contrib-compress > archiver > zip-stream > archiver-utils > lodash:
+        patched: '2020-05-01T00:52:06.370Z'
+    - karma > log4js > mailgun-js > async > lodash:
+        patched: '2020-05-01T00:52:06.370Z'
+    - karma > log4js > slack-node > requestretry > lodash:
+        patched: '2020-05-01T00:52:06.370Z'
