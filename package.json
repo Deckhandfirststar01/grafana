@@ -37,7 +37,7 @@
     "karma": "~2.0.3",
     "karma-chrome-launcher": "~0.1.4",
     "karma-coffee-preprocessor": "~0.1.2",
-    "karma-coverage": "0.5.3",
+    "karma-coverage": "2.0.2",
     "karma-coveralls": "1.2.0",
     "karma-expect": "~1.1.0",
     "karma-mocha": "~0.1.10",
