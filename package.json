@@ -56,7 +56,7 @@
   "scripts": {
     "test": "grunt test",
     "coveralls": "grunt karma:coveralls && rm -rf ./coverage",
-    "snyk-protect": "snyk protect",
+    "snyk-protect": "snyk-protect",
     "prepare": "npm run snyk-protect"
   },
   "license": "Apache License",
@@ -65,7 +65,7 @@
     "karma-sinon": "^1.0.3",
     "lodash": "^2.4.1",
     "sinon": "^1.10.3",
-    "snyk": "^1.89.1"
+    "@snyk/protect": "latest"
   },
   "snyk": true
 }
