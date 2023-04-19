@@ -1,6 +1,6 @@
 # influxdb
 
-FROM ubuntu
+FROM ubuntu:22.10
 
 RUN mkdir -p /opt/influxdb/shared/data
 
