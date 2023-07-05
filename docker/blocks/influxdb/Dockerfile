@@ -1,6 +1,6 @@
 # influxdb
 
-FROM ubuntu
+FROM ubuntu:kinetic
 
 RUN mkdir -p /opt/influxdb/shared/data
 
