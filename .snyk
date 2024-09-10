@@ -1,5 +1,5 @@
 # Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
-version: v1.21.5
+version: v1.25.1
 ignore: {}
 # patches apply the minimum changes required to fix a vulnerability
 patch:
@@ -86,6 +86,22 @@ patch:
         patched: '2021-09-02T06:55:02.176Z'
     - grunt-jscs > jscs > babel-jscs > babel-core > babel-plugin-proto-to-assign > lodash:
         patched: '2021-09-02T06:55:02.176Z'
+    - grunt-jscs > lodash:
+        patched: '2024-09-10T18:51:35.736Z'
+        id: 'npm:lodash:20180130'
+        path: grunt-jscs > lodash
+    - grunt-jscs > jscs > lodash:
+        patched: '2024-09-10T18:51:35.736Z'
+        id: 'npm:lodash:20180130'
+        path: grunt-jscs > jscs > lodash
+    - grunt-jscs > jscs > xmlbuilder > lodash:
+        patched: '2024-09-10T18:51:35.736Z'
+        id: 'npm:lodash:20180130'
+        path: grunt-jscs > jscs > xmlbuilder > lodash
+    - grunt-jscs > jscs > jscs-jsdoc > jsdoctypeparser > lodash:
+        patched: '2024-09-10T18:51:35.736Z'
+        id: 'npm:lodash:20180130'
+        path: grunt-jscs > jscs > jscs-jsdoc > jsdoctypeparser > lodash
   'npm:minimatch:20160620':
     - grunt-jscs > jscs > babel-jscs > babel-core > minimatch:
         patched: '2021-09-02T06:55:02.176Z'
